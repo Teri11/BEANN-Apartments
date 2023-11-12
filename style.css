@@ -1,0 +1,43 @@
+     /* Custom Styles */
+     .navbar {
+        background-color: #f8f9fa;
+        border-bottom: 2px solid #e2e6ea;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .navbar-brand {
+        color: black;
+        font-weight: bold;
+    }
+
+    /* .navbar-toggler-icon {
+        background-color: black;
+    } */
+
+    .navbar-nav .nav-link {
+        color: #495057;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: green;
+    }
+
+    .navbar-nav .nav-item.dropdown:hover .nav-link {
+        color:green;
+    }
+
+    .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .dropdown-menu {
+        background-color: #f8f9fa;
+    }
+
+    .dropdown-item {
+        color: #495057;
+    }
+
+    .dropdown-item:hover {
+        background-color: #e2e6ea;
+    }
