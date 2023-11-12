@@ -65,6 +65,9 @@
         font-family: 'Times New Roman', Times, serif;
         text-align: center;
     }
+    #picpic{
+        height: 30rem;
+    }
  /* images tour starts */
 .container-fluid {
     overflow: hidden;
