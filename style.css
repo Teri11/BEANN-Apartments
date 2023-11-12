@@ -41,3 +41,15 @@
     .dropdown-item:hover {
         background-color: #e2e6ea;
     }
+    #slider1{
+        height: 32rem;
+    }
+    .headline{
+        color: white;
+        font-size: 5rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .para{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 2rem;
+    }
