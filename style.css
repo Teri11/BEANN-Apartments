@@ -1,101 +1,103 @@
-     /* Custom Styles */
-     .navbar {
-        background-color: #f8f9fa;
-        border-bottom: 2px solid #e2e6ea;
-        font-family: 'Times New Roman', Times, serif;
-    }
-
-    .navbar-brand {
-        color: black;
-        font-weight: bold;
-    }
-
-    /* .navbar-toggler-icon {
-        background-color: black;
-    } */
-
-    .navbar-nav .nav-link {
-        color: #495057;
-    }
-
-    .navbar-nav .nav-link:hover {
-        color: green;
-    }
-
-    .navbar-nav .nav-item.dropdown:hover .nav-link {
-        color:green;
-    }
-
-    .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
-        display: block;
-    }
-
-    .dropdown-menu {
-        background-color: #f8f9fa;
-    }
-
-    .dropdown-item {
-        color: #495057;
-    }
-
-    .dropdown-item:hover {
-        background-color: #e2e6ea;
-    }
-    #slider1{
-        height: 32rem;
-    }
-    .headline{
-        color: white;
-        font-size: 5rem;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .para{
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 2rem;
-    }
-    .text-muted{
-        font-family: 'Times New Roman', Times, serif;
-    }
-    #aboutus{
+/* Custom Styles */
+.navbar {
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e2e6ea;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 3 rem;
-    
-    }
-    .tour{
-        font-family: 'Times New Roman', Times, serif;
-        text-align: center;
-    }
-    #picpic{
-        height: 30rem;
-    }
- /* images tour starts */
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #495057;
+}
+
+.navbar-nav .nav-link:hover {
+    color: green;
+}
+
+.navbar-nav .nav-item.dropdown:hover .nav-link {
+    color: green;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    background-color: #f8f9fa;
+}
+
+.dropdown-item {
+    color: #495057;
+}
+
+.dropdown-item:hover {
+    background-color: #e2e6ea;
+}
+
+#slider1 {
+    height: 32rem;
+}
+
+.headline {
+    color: white;
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.para {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.text-muted {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#aboutus {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+.tour {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#picpic {
+    height: 30rem;
+}
+
+/* Images Tour */
 .container-fluid {
     overflow: hidden;
-  }
-  
-  .image-marquee {
+}
+
+.image-marquee {
     display: flex;
     animation: marqueeAnimation 18s linear infinite;
-  }
-  
-  .image-marquee img {
+}
+
+.image-marquee img {
     width: 100%;
     height: 19rem; /* Adjust as needed */
     margin-right: 5rem; /* Adjust as needed */
-  }
-  
-  @keyframes marqueeAnimation {
+}
+
+@keyframes marqueeAnimation {
     0% {
-      transform: translateX(100%);
+        transform: translateX(100%);
     }
     100% {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
-  }
-  /* images tour ends */
+}
 
-  /* about srction starts */
-  .about-section {
+/* About Section */
+.about-section {
     padding: 80px 0;
 }
 
@@ -121,9 +123,47 @@
     color: #666;
     margin-bottom: 15px;
 }
-  /* about section ends */
 
-  /* houses starts */
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .image-marquee img {
+        margin-right: 2rem;
+    }
+}
 
+@media (max-width: 991px) {
+    #picpic {
+        height: 20rem;
+    }
+
+    .headline {
+        font-size: 4rem;
+    }
+}
+
+/* Houses Section */
+/* Add your responsive styles for the houses section here */
+
+/* Houses Section Ends */
+
+/* watsapp starts */
+/* Add your general styles here */
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
   
-  /* houses ends */
+  .whatsapp-icon img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .whatsapp-icon img:hover {
+    transform: scale(1.1);
+  }
+/* watsapp ends */
